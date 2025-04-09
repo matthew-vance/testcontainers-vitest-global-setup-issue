@@ -1,0 +1,17 @@
+{
+  "name": "testcontainers-vitest-global-setup-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=testcontainers* vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "redis": "^4.7.0",
+    "testcontainers": "^10.24.1",
+    "vitest": "^3.1.1"
+  }
+}
